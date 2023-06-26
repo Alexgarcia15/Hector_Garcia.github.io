@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Metadatos -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="HECTOR GARCIA">
+  <meta name="description" content="Portafolio de Desarroyo Web de Hector Garcia">
+  <meta name="keywords" content="html, CSS, javascript, react"> 
+  <!-- Título -->
+   <title>Héctor García | Desarrollo Web </title>
+   <!-- Favicon -->
+   <link rel="icon" type="image/x-icon" href="imagenes/FaviconPeq.png">
+   <!-- Boostrap -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Iconos de Boostrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google-Font (rubik dirt)-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+  <!-- Yo puse esta fuente (share tech mono) -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '588092826016917');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=588092826016917&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+</head>
+<body>
+<!-- Barra de navegacion -->
+<nav class="navbar navbar-expand-sm navbar-warning navbar-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-toggler">
+      <a class="navbar-brand" href="#"><img src="imagenes/FaviconPeqFoto.png" width="50px" alt="Imagen de Hector"></a>
+      <ul class="navbar-nav d-flex justify-content-center align-items-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonios">Testimonios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto">Contactos</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+<!-- SectionHero -->
+<section class="hero align-items-stretch">
+  <br>
+    <marquee scrollamount="10" behavior="alternate"><h2>Hector Garcia, Programador de Paginas Web</h2></marquee>
+  <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+    <img class="hero-imagen-desarroyador rounded-circle"  src="imagenes/FaviconPeqFoto.png" width= 70px  alt="foto de Héctor García">
+    <h1>Hola, Soy Héctor García</h1>
+    <h2> Desarrollo Sitio Web y escribo artículos sobre programacíon.</h2>
+  </div>
+  <div class="hero-inferior">
+    <img class="hero-inferior-imagen img-fluid" src="imagenes/ImagenDisenoWeb8.jpg" alt="computadora">
+  </div>
+  
+</section>
+<!-- SectionSobre mi -->
+<section id="sobre-mi" class="sobre-mi seccion-oscura">
+<div class="contenedor">
+  <h2 class="seccion-titulo">Conoce a Héctor García</h2>
+  <p class="seccion-texto">Estamos certificados para hacer Sitios Web de diferentes categorias 
+    y diferentes temas acorde al mundo moderno de hoy, y para cualquier 
+    tipo de negocio, empresa o industria.
+    A los profesionles y personas que ofrecen sus servicios de cualquier 
+    ídole les hacemos su Portafolio de presentacíon para que se los presenten a sus potenciales clientes, 
+    igualmente les hacemos Portafolio a los frelances.
+  </p>
+</div>
+</section>
+<!-- SectionExperiencia -->
+<section class="experiencia seccion-clara">
+  <div class="container tex-center">
+    <div class="row">
+      <div class="columna col-12 col-md-4">
+        <i class="bi bi-laptop"></i>
+        <p class="experiencia-titulo">Desarroyo web</p>
+        <p>Estamos certificados para hacer Sitios Web de diferentes categorias 
+          y diferentes temas acorde al Estamos certificados para hacer Sitios Web de diferentes categorias 
+          y diferentes temas acorde al </p>
+         <div class="badges-contenedor">
+          <span class="badge bg-primary">HTML</span>
+          <span class="badge bg-primary">CSS</span>
+          <span class="badge bg-primary">JavaScript</span>
+          <span class="badge bg-primary">React</span>
+        </div>  
+      </div>   
+      <div class="columna col-12 col-md-4">
+        <i class="bi bi-laptop"></i>
+        <p class="experiencia-titulo">Artículos</p>
+        <p>Estamos certificados para hacer Sitios Web de diferentes categorias 
+          y diferentes temas acorde al Estamos certificados para hacer Sitios Web de diferentes categorias 
+          y diferentes temas acorde al </p>
+         <div class="badges-contenedor">
+          <span class="badge bg-primary">Escribir</span>
+          <span class="badge bg-primary">Editar</span>
+          <span class="badge bg-primary">Blogs</span>
+          <span class="badge bg-primary">Diseñar</span>
+        </div> 
+
+        </div>
+      <div class="columna col-12 col-md-4">
+        <i class="bi bi-laptop"></i>
+        <p class="experiencia-titulo">Estudiante</p>
+        <p>Estamos certificados para hacer Sitios Web de diferentes categorias 
+          y diferentes temas acorde al Estamos certificados para hacer Sitios Web de diferentes categorias 
+          y diferentes temas acorde al </p>
+         <div class="badges-contenedor">
+          <span class="badge bg-primary">FreeCodeCamp</span>
+          <span class="badge bg-primary">Diseño Web</span>
+          <span class="badge bg-primary">Paython</span>
+          
+        </div> 
+      </div>   
+    </div>
+  </div>
+  </div>
+</section>
+<!-- SectionProyectos -->
+<section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+  <h2 class="seccion-titulo texto-negro">Mis Proyectos Recientes</h2>
+  <h3 class="seccion-descripcion">Estos son algunos Proyectos que he creado recientemente...</h3>
+<!-- Galeria de proyectos -->
+<div class="container tex-center proyectos-contenedor">
+  <div class="row">
+    <!-- Proyecto 1 Proyecto 1 Proyecto 1 -->
+    <div class=" col-12 col-md-6 col-lg-4">
+      <div class="proyecto">
+        <img src="imagenes/Img-PhotoShop1.jpg" alt="proyecto1">
+        <div class="overlay">
+          <p>Proyecto 1</p>
+          
+          <div class="iconos-contenedor">
+          <a href="https://icons.getbootstrap.com/icons/github/" target="_blank" rel="_noopener noreferrer"> 
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="_noopener noreferrer">
+            <i class="bi bi-laptop"></i>
+          </a>
+          </div>
+        </div>  
+      </div>
+    </div>
+    <!-- Proyecto 2 Proyecto 2 Proyecto 2 -->
+    <div class=" col-12 col-md-6 col-lg-4">
+      <div class="proyecto">
+        <img src="imagenes/Img-PhotoShop2.jpg" width="50px", height="250" alt="proyecto2">
+        <div class="overlay">
+          <p>Proyecto 2</p>
+          
+          <div class="iconos-contenedor">
+          <a href="https://icons.getbootstrap.com/icons/github/" target="_blank" rel="_noopener noreferrer"> 
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="_noopener noreferrer">
+            <i class="bi bi-laptop"></i>
+          </a>
+          </div>
+        </div>  
+      </div>
+    </div>
+    <!-- Proyecto 3 Proyecto 3 Proyecto 3 -->
+    <div class=" col-12 col-md-6 col-lg-4">
+      <div class="proyecto">
+        <img src="imagenes/Img-PhotoShop3.jpg" width="500px" height="250" alt="proyecto3">
+        <div class="overlay">
+          <p>Proyecto 3</p>
+          
+          <div class="iconos-contenedor">
+          <a href="https://icons.getbootstrap.com/icons/github/" target="_blank" rel="_noopener noreferrer"> 
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="_noopener noreferrer">
+            <i class="bi bi-laptop"></i>
+          </a>
+          </div>
+        </div>  
+      </div>
+    </div>
+    <!-- Proyecto 4 Proyecto 4 Proyecto 4 -->
+    <div class=" col-12 col-md-6 col-lg-4">
+      <div class="proyecto">
+        <img src="imagenes/Img-PhotoShop4.jpg" width="500px" height="250" alt="proyecto4">
+        <div class="overlay">
+          <p>Proyecto 4</p>
+          
+          <div class="iconos-contenedor">
+          <a href="https://icons.getbootstrap.com/icons/github/" target="_blank" rel="_noopener noreferrer"> 
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="_noopener noreferrer">
+            <i class="bi bi-laptop"></i>
+          </a>
+          </div>
+        </div>  
+      </div>
+    </div>
+    <!-- Proyecto 5 Proyecto 5 Proyecto 5 -->
+    <div class=" col-12 col-md-6 col-lg-4">
+      <div class="proyecto">
+        <img src="imagenes/Img-PhotoShop5.jpg" width="500px" height="250" alt="proyecto5">
+        <div class="overlay">
+          <p>Proyecto 5</p>
+          
+          <div class="iconos-contenedor">
+          <a href="https://icons.getbootstrap.com/icons/github/" target="_blank" rel="_noopener noreferrer"> 
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="_noopener noreferrer">
+            <i class="bi bi-laptop"></i>
+          </a>
+          </div>
+        </div>  
+      </div>
+    </div>
+    <!-- Proyecto 6 Proyecto 6 Proyecto 6 -->
+    <div class=" col-12 col-md-6 col-lg-4">
+      <div class="proyecto">
+        <img src="imagenes/Img-PhotoShop6.jpg" width="100px" height="300px" alt="proyecto6">
+        <div class="overlay">
+          <p>Proyecto 6</p>
+          
+          <div class="iconos-contenedor">
+          <a href="https://icons.getbootstrap.com/icons/github/" target="_blank" rel="_noopener noreferrer"> 
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="_noopener noreferrer">
+            <i class="bi bi-laptop"></i>
+          </a>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  <a href=https://www.freecodecamp.org/espanol/news target="_blank" rel="_noopener noreferrer">
+    <button type="button" class="btn btn-info">
+  Ver más proyectos
+  <i class="bi bi-arrow-right-circle-fill"></i>
+    </button>
+  </a>
+</section>
+<!-- Section Artículos -->
+<section class="articulos justify-content-start">
+  <h2 class="seccion-titulo texto-negro">Artículos</h2>
+  <div class="card">
+    <div class="card-header">
+      Más Recientes
+    </div>
+    <ul class="list-group list-group-flush">
+      <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+        <li class="list-group-item">El @decorador property en faiton - cómo usarlo, ventajas y sintaxis.
+
+        </li>
+      </a>
+      <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+        <li class="list-group-item">
+          Paython Tutorial ciclos While - While True ejemplos de sintaxis y ciclos infinitos.
+        </li>
+      </a>
+      <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+        <li class="list-group-item">
+          Paython leer archivos Json - Cómo cargar Json desde un archivo y procesar Dumps.
+        </li>
+      </a>
+      <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+        <li class="list-group-item">
+          Paython cómo escriber en un archivo - Abrir, leer, escribir y otras funciones de archivos explicada.
+        </li>
+      </a>
+      <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+        <li class="list-group-item">
+          Para que se usa Paython? 10+ usos del lenguaje de programacion.
+        </li>
+      </a>
+    </ul>
+  </div>
+    <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="_noopener noreferrer">
+    <button type="button" class="btn btn-info">
+      Ver más artículos
+      <i class="bi bi-arrow-right-circle-fill"></i>
+    </button>
+    </a>
+</section>
+  <!-- Section Testimonios -->
+  <section id="testimonios" class="testimonios seccion-clara" >
+    <h2 class="seccion-titulo">Testimonios</h2>
+    <h3 class="seccion-descripcion">Estos son algunos Testimonios de mis clientes...</h3>
+    <!-- Carrrusel (Experimento mio) -->
+    <div id="testimonios-carrusel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/FotoAlex.jpg" alt="Foto de Hector">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tellus mauris, rhoncus vitae luctus a, fringilla nec lectus. .</p>
+            <div class="testimonio-info">
+              <p class="cliente">Alex</p>
+              <p class="cargo">Gerente de Proyectos en Desarroyo Web</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/FotoCesar.jpg" alt="Foto de Hector">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tellus mauris, rhoncus vitae luctus a, fringilla nec lectus. .</p>
+            <div class="testimonio-info">
+              <p class="cliente">Cesar</p>
+              <p class="cargo">Gerente general Shell Company</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/FotoClara.jpg" alt="Foto de Hector">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tellus mauris, rhoncus vitae luctus a, fringilla nec lectus. .</p>
+            <div class="testimonio-info">
+              <p class="cliente">Clara</p>
+              <p class="cargo">Coordinadora gral. Acciones bélicas E.N.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+  <!-- Section Contactos -->
+  <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container tex-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame para iniciar tu proyecto de desarroyo web, y haré que tu vision se vuelva realidad.
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:hectorramon001@gmail.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Pie de págin (Footer) -->
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+  <img class="footer-logo"src="imagenes/HectorGarciaLogoBlanco.png" alt="Logo de Portafolio">
+  <p class="footer-texto tex-center">Aprendo y creo todos los dias.<br>Creemos un proyecto juntos.</p>
+  <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+    <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-twitter"></i>
+    </a>
+    <a href="https://github.com/Frecodecamp/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-github"></i>
+    </a>
+    <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="mailto:hectorramon001@gmail.com" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-envelope"></i>
+    </a>
+  </div class="derechos-de-autor">
+    <div>Creado por Hector García (2023) &#169;</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
